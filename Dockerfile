@@ -1,7 +1,7 @@
 FROM golang:1.8.3
 LABEL protos="0.0.1" \
       protos.installer.metadata.description="This applications provides a proxy for doing Protos application development" \
-      protos.installer.metadata.capabilities="ResourceProvider,ResourceConsumer,InternetAccess,GetInformation" \
+      protos.installer.metadata.capabilities="ResourceProvider,ResourceConsumer,InternetAccess,GetInformation,PublicDNS" \
       protos.installer.metadata.requires="dns" \
       protos.installer.metadata.provides="certificate" \
       protos.installer.metadata.name="protosproxy"
