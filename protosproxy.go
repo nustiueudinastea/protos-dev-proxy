@@ -58,5 +58,8 @@ func main() {
 
 	// server
 	http.HandleFunc("/", proxy.handle)
+	go http.ListenAndServe(":9996", nil)
+	go http.ListenAndServe(":9997", nil)
+	go http.ListenAndServe(":9998", nil)
 	http.ListenAndServe(*port, nil)
 }
