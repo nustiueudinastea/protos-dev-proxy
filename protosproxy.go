@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"os"
 
-	protos "github.com/nustiueudinastea/protoslib-go"
+	protos "github.com/protosio/protoslib-go"
 )
 
 type Prox struct {
